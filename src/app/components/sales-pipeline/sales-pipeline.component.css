@@ -12,6 +12,10 @@
   border-radius: 10px;
   text-align: left;
 }
+.divSpeechBlue:hover,
+.divSpeech:hover {
+  background-color: #dfe7ef;
+}
 
 .divSpeechBlue {
   border: 3px solid blue;
@@ -31,4 +35,9 @@
   border-bottom: inherit;
   border-right: inherit;
   box-shadow: inherit;
+}
+
+.divSpeechBlue:hover::before,
+.divSpeech:hover::before {
+  background-color: #dfe7ef;
 }
