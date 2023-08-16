@@ -35,9 +35,16 @@
   border-bottom: inherit;
   border-right: inherit;
   box-shadow: inherit;
+  display: none;
 }
 
 .divSpeechBlue:hover::before,
 .divSpeech:hover::before {
   background-color: #dfe7ef;
+  display: block;
+}
+
+.divSpeechBlue:not(:hover)::before,
+.divSpeech:hover::before {
+  display: block;
 }
