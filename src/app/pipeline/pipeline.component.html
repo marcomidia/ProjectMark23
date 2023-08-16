@@ -1,0 +1,15 @@
+<div class="divInlineBlock">
+  <div style="display: inline-flex">
+    <span *ngFor="let item of projectMarkList">
+      <div class="box boxColor{{ item.id }}" *ngIf="showIt(item.id)">
+        <div class="boxPadding">
+          <div class="subTitle">{{ item.name }}</div>
+          <div class="boxColorIn{{ item.id }}">
+            <div class="boxColorInDark{{ item.id }}"></div>
+          </div>
+        </div>
+        <div class="squareIn{{ item.id }}"></div>
+      </div>
+    </span>
+  </div>
+</div>
