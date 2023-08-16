@@ -1,0 +1,6 @@
+{
+  "hosting": {
+    "public": "dist/project-mark23",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
