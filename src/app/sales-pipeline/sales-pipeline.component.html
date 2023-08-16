@@ -1,0 +1,24 @@
+<div class="title">
+  Please select the type of sales pipeline that best fits to you company
+</div>
+
+<ul class="divSpace">
+  <ng-container *ngFor="let item of checklist">
+    <li
+      [ngClass]="
+        (item.isSelected === true ? 'divSpeechBlue' : 'divSpeech') +
+        ' prevent-select'
+      "
+      (click)="isAllSelected(item)"
+    >
+      <input
+        id="chk{{ item.id }}"
+        type="checkbox"
+        value="{{ item.id }}"
+        [checked]="item.isSelected"
+        onClick="this.checked=!this.checked"
+      />
+      {{ item.value }}
+    </li>
+  </ng-container>
+</ul>

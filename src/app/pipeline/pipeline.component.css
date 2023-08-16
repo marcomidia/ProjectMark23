@@ -1,0 +1,171 @@
+.box {
+  margin: 0.5em;
+  padding: 0.5em;
+  padding-bottom: 20%;
+  border-radius: 25px;
+  padding-top: 20px;
+  width: 200px;
+  height: 450px;
+}
+
+.boxColorIn1,
+.boxColorIn2,
+.boxColorIn3,
+.boxColorIn4,
+.boxColorIn5,
+.boxColorIn6,
+.boxColorIn {
+  height: 20px;
+  width: 50%;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+
+.boxColorInDark1,
+.boxColorInDark2,
+.boxColorInDark3,
+.boxColorInDark4,
+.boxColorInDark5,
+.boxColorInDark6,
+.boxColorInDark {
+  height: 20px;
+  width: 40%;
+  border-radius: 25px;
+  margin-top: 1em;
+}
+
+.squareIn1,
+.squareIn2,
+.squareIn3,
+.squareIn4,
+.squareIn5,
+.squareIn6,
+.squareIn {
+  border: 1px;
+  border-style: solid;
+  border-radius: 5%;
+  width: 100%;
+  height: 50%;
+  margin-top: 0.5em;
+  padding-top: 0em;
+}
+
+.boxColor1 {
+  background-color: #f7f1ff;
+  background-image: linear-gradient(#f7f1ff, white);
+}
+
+.boxColorIn1 {
+  background-color: #e9d9ff;
+}
+
+.boxColorInDark1 {
+  background-color: #dabfff;
+}
+
+.squareIn1 {
+  border-color: #dabfff;
+}
+
+.boxColor2 {
+  background-color: #fef6ef;
+  background-image: linear-gradient(#fef6ef, white);
+}
+
+.boxColorIn2 {
+  background-color: #ffe4cc;
+}
+
+.boxColorInDark2 {
+  background-color: #ffd6b3;
+}
+
+.squareIn2 {
+  border-color: #ffe4cc;
+}
+
+.boxColor3 {
+  background-color: #e6f4ff;
+  background-image: linear-gradient(#e6f4ff, white);
+}
+
+.boxColorIn3 {
+  background-color: #bfe3ff;
+}
+
+.boxColorInDark3 {
+  background-color: #99d1ff;
+}
+
+.squareIn3 {
+  border-color: #bfe3ff;
+}
+
+.boxColor4 {
+  background-color: #def5f7;
+  background-image: linear-gradient(#def5f7, white);
+}
+
+.boxColorIn4 {
+  background-color: #aaecf2;
+}
+
+.boxColorInDark4 {
+  background-color: #81dde5;
+}
+
+.squareIn4 {
+  border-color: #aaecf2;
+}
+
+.boxColor5 {
+  background-color: #fff2f6;
+  background-image: linear-gradient(#fff2f6, white);
+}
+
+.boxColorIn5 {
+  background-color: #ffd9e4;
+}
+
+.boxColorInDark5 {
+  background-color: #ffbfd2;
+}
+
+.squareIn5 {
+  border-color: #ffd9e4;
+}
+
+.boxColor6 {
+  background-color: #f2f7fa;
+  background-image: linear-gradient(#f2f7fa, white);
+}
+
+.boxColorIn6 {
+  background-color: #e2e8f0;
+}
+
+.boxColorInDark6 {
+  background-color: #cbd5e0;
+}
+
+.squareIn6 {
+  border-color: #e2e8f0;
+}
+
+.divInlineBlock,
+.boxCheckbox {
+  display: inline-block;
+  height: 1em;
+  align-items: left;
+  align-content: start;
+  text-align: left;
+  vertical-align: top;
+}
+
+.divInlineBlock {
+  min-height: 1024px;
+}
+
+.boxPadding {
+  padding: 1px 0px 0px 10px;
+}
