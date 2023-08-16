@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { globalService } from '../_services/global';
+import { singleton } from '../../_global/singleton';
 
 @Component({
   selector: 'app-sales-pipeline',
@@ -9,7 +9,7 @@ import { globalService } from '../_services/global';
 export class SalesPipelineComponent {
   public checklist: any[];
   salesPipeline!: string;
-  constructor(private globalService: globalService) {
+  constructor(private singleton: singleton) {
     this.checklist = [
       { id: 1, value: 'Basic', isSelected: true },
       { id: 2, value: 'Advanced', isSelected: false },
@@ -17,7 +17,7 @@ export class SalesPipelineComponent {
       { id: 4, value: 'Custom', isSelected: false },
     ];
 
-    this.salesPipeline = globalService.salesPipeline = 'Basic';
+    this.salesPipeline = singleton.salesPipeline = 'Basic';
   }
 
   isAllSelected(item: any) {
@@ -26,7 +26,7 @@ export class SalesPipelineComponent {
         this.salesPipeline = item.value;
         val.isSelected = true;
         console.log(item.value);
-        this.salesPipeline = this.globalService.salesPipeline = item.value;
+        this.salesPipeline = this.singleton.salesPipeline = item.value;
       } else {
         val.isSelected = false;
       }

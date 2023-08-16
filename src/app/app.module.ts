@@ -7,13 +7,18 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
-import { PipelineComponent } from './pipeline/pipeline.component';
-import { SalesPipelineComponent } from './sales-pipeline/sales-pipeline.component';
-import { TopStepComponent } from './top-step/top-step.component';
+import { PipelineComponent } from './components/pipeline/pipeline.component';
+import { SalesPipelineComponent } from './components/sales-pipeline/sales-pipeline.component';
+import { TopStepComponent } from './components/top-step/top-step.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
-  declarations: [AppComponent, PipelineComponent, SalesPipelineComponent, TopStepComponent],
+  declarations: [
+    AppComponent,
+    PipelineComponent,
+    SalesPipelineComponent,
+    TopStepComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
